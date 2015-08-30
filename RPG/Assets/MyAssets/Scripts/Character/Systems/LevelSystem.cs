@@ -5,6 +5,7 @@ using System.Collections;
 [System.Serializable]
 public class LevelSystem
 {
+	[NonSerialized]
 	public BaseCharacterClass character;
 
 	public int level = 0;
@@ -13,6 +14,9 @@ public class LevelSystem
 	int expToLevel = 100;
 	float level_modifier = 1.4f;
 
+
+	public string strLevel {get {return level.ToString();}}
+	
 
 	public void AddExp(int amount)
 	{

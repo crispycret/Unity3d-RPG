@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 31b6a49cde068e34983c58bc60cf6616
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - imgLevel: {fileID: 2800000, guid: a532fd60991abd241b5d213b35f39a62, type: 3}
+  - imgHealth: {fileID: 2800000, guid: 30cf47401d18c71478dec98195f45fa4, type: 3}
+  - imgHealthBar: {fileID: 2800000, guid: e8cee610e2608cc4e98a047e54dda2d6, type: 3}
+  - skin: {fileID: 11400000, guid: 35b207da9ad779241b81853a8db5cdf5, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

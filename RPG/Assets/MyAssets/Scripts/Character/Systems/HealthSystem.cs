@@ -13,6 +13,7 @@ public class HealthSystem
 	public float Percent {get {return (float)health / max_health;}}
 	// return health as a string
 	public string strHealth {get {return health.ToString();}}
+	public string strMaxHealth {get {return max_health.ToString();}}
 
 
 	// Max out health

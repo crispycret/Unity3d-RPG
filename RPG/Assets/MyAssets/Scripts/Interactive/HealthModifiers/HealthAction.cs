@@ -4,7 +4,7 @@ using System.Collections;
 [RequireComponent(typeof(RangeDetector))]
 public class HealthAction : MonoBehaviour 
 {
-	public HealthActions actions;
+	public HealthActions actions = new HealthActions();
 	public RangeDetector detector;
 	public BaseCharacterClass target;
 
@@ -15,7 +15,6 @@ public class HealthAction : MonoBehaviour
 
 	void Awake ()
 	{
-		actions = new HealthActions ();
 		detector = gameObject.GetComponent<RangeDetector> ();
 	}
 
